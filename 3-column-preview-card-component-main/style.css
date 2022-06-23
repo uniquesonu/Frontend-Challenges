@@ -1,0 +1,84 @@
+/* Importing Lexend Deca from google fonts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header{
+    /* margin: auto; */
+    padding: 2px;
+    
+}
+
+.container{
+    width: 680px;
+    overflow: hidden;
+    display: flex;
+    margin: 8em;
+    border-radius: 5px;
+}
+
+.card{
+    padding: 1em;
+    font-weight: 300;
+}
+
+.card p{
+    color:white;
+    margin-bottom: 4em;
+}
+
+.container .sedans{
+    background: hsl(31, 77%, 52%);
+}
+
+.container .suvs{
+    background: hsl(184, 100%, 22%);
+}
+
+.container .luxury{
+    background: hsl(179, 100%, 13%);
+}
+
+.container .images-design{
+    margin: 30px;
+}
+
+.container .text-doc{
+    text-transform: uppercase;
+    margin: 25px;
+    color: white;
+    
+}
+
+.container p{
+    margin: 5px 8px;
+}
+
+.container .button-design{
+    
+    background-color: white;
+    color: transparent;
+    width: 100px;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    cursor: pointer;
+    padding: 0.6em 0.3em;
+    outline: none;
+    margin-left: 40px;
+
+}
+
+.container .button-design:hover{
+    background: transparent;
+    color: white;
+}
