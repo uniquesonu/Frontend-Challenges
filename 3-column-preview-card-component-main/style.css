@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    width: 100%;
 }
 
 h2{
@@ -21,7 +23,7 @@ h2{
 .container{
     overflow: hidden;
     display: flex;
-    margin: 8em 16em;
+    margin: 18em 36em;
     border-radius: 5px;
 }
 
@@ -30,12 +32,14 @@ h2{
     font-weight: 300;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 2em;
+    font-size: 20px;
 }
 
 .card p{
     font-family: 'Lexend Deca', sans-serif;
-    color:hsla(0, 0%, 100%, 0.75)   ;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
     margin-bottom: 2em;
     font-weight: 400;
 }
@@ -51,9 +55,16 @@ h2{
 .container .suvs{
     background: hsl(184, 100%, 22%);
 }
+.suvs button{
+    color: hsl(184, 100%, 22%);
+}
 
 .container .luxury{
     background: hsl(179, 100%, 13%);
+
+}
+.luxury button{
+    color: hsl(179, 100%, 13%);
 }
 
 .container .images-design{
@@ -72,7 +83,7 @@ h2{
     border-radius: 20px;
     border: 1.5px solid white;
     cursor: pointer;
-    padding: 0.6em 0.3em;
+    padding: 1em 0.5em;
     outline: none;
 }
 

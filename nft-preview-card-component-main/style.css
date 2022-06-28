@@ -23,17 +23,47 @@ body{
     padding: 1em;
     
 }
-.img-equilibrium{
+.img_wrapper{
     /* width: 4px;
     height: 6px; */
     width: auto;
     border-radius: 5px;
     cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.img_wrapper img{
+    width: 100%;
+}
+
+.img_overlay{
+    background-color: hsla(178, 100%, 50%,0.3);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    top:0;
+    width: 100%;
+    opacity: 0;
+    transition: 0.25s;
+}
+.img_overlay:hover{
+    opacity: 1;
+}
+
+.img_overlay img{
+    width: 3em;
 }
 
 .container h2{
     margin: 5px 10px;
     color: white;
+    cursor: pointer;
+}
+.container h2:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 .container .para-equi{
@@ -95,6 +125,11 @@ hr{
 
 .name-wrapper .p-name{
     color: white;
+    cursor: pointer;
+}
+
+.name-wrapper .p-name:hover{
+    color: hsl(178, 100%, 50%);
 }
 /* .img-equilibrium:hover{
     opacity: 0.5;
