@@ -1,5 +1,4 @@
-/* Importing Lexend Deca from google fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,35 +9,43 @@ body{
     background-color: white;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    min-height: 100vh;
 }
 
-header{
-    /* margin: auto; */
-    padding: 2px;
-    
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
 }
 
 .container{
-    width: 680px;
     overflow: hidden;
     display: flex;
-    margin: 8em;
+    margin: 8em 16em;
     border-radius: 5px;
 }
 
 .card{
-    padding: 1em;
+    padding: 3em;
     font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .card p{
-    color:white;
-    margin-bottom: 4em;
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsla(0, 0%, 100%, 0.75)   ;
+    margin-bottom: 2em;
+    font-weight: 400;
 }
 
 .container .sedans{
     background: hsl(31, 77%, 52%);
+}
+
+.sedans button {
+    color:hsl(31, 77%, 52%);
 }
 
 .container .suvs{
@@ -50,35 +57,32 @@ header{
 }
 
 .container .images-design{
-    margin: 30px;
+    width: 4em;
 }
 
 .container .text-doc{
     text-transform: uppercase;
-    margin: 25px;
     color: white;
     
 }
-
-.container p{
-    margin: 5px 8px;
-}
-
 .container .button-design{
     
     background-color: white;
-    color: transparent;
     width: 100px;
     border-radius: 20px;
     border: 1.5px solid white;
     cursor: pointer;
     padding: 0.6em 0.3em;
     outline: none;
-    margin-left: 40px;
-
 }
 
 .container .button-design:hover{
     background: transparent;
     color: white;
+}
+
+@media (max-width:768px) {
+    .container{
+        flex-direction: column;
+    }
 }

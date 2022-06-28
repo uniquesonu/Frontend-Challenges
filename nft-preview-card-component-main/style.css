@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 18em;
+    
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 1em;
+    
+}
+.img-equilibrium{
+    /* width: 4px;
+    height: 6px; */
+    width: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container h2{
+    margin: 5px 10px;
+    color: white;
+}
+
+.container .para-equi{
+    margin: 5px 10px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-bottom: 1em;
+}
+
+.clock{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    flex-direction: row;
+    gap: 0.4em;
+}
+.ethereum{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    flex-direction: row;
+    gap: 0.4em;
+}
+
+.icon-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}
+hr{
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+
+}
+
+.creator{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.avatar{
+    height: 2em;
+    width:2em;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.name-wrapper{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.name-wrapper .p-creator{
+    color: hsl(215, 51%, 70%);
+}
+
+.name-wrapper .p-name{
+    color: white;
+}
+/* .img-equilibrium:hover{
+    opacity: 0.5;
+} */
