@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,700;1,400&display=swap');
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightGrey: hsl(217, 12%, 63%);
+    --mediumGrey: hsla(216, 12%, 54%, 0.205);
+    --darkBlue: hsl(213, 19%, 18%);
+    --veryDarkBlue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: var(--veryDarkBlue);
+    display: flex;
+    font-family: 'Overpass', sans-serif;    
+    
+}
+
+.container{
+    max-width: 27em;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 1em;
+    padding: 2em;
+    background-color: var(--darkBlue);
+}
+
+.star{
+    background-color: var(--mediumGrey);
+    border-radius: 50%;
+    padding: 1em;
+    margin-right: 18em;
+    margin-bottom: 2em;
+}
+
+.written h2{
+    margin: 0.5em;
+    color: var(--white);
+    font-size: 1.8em;
+    /* padding-left: .6em; */
+    
+}
+.written p{
+    font-size: 1em;
+    color: var(--lightGrey);
+    line-height: 1.4em;
+}
+
+
+.rating-wrappers{
+    display: flex;
+    /* background: red; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.7em 0;
+    
+    
+}
+
+.circle{
+    background-color: var(--mediumGrey);
+    border-radius: 50%;
+    text-align: center;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 0 .6em;
+}
+
+input[type='radio'] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    outline:none;
+    all: unset;
+
+}
+/* label{
+    cursor: pointer;
+    color: var(--lightGrey);
+} */
+
+
+.circle:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.rating-wrappers .selected {
+    background-color: var(--lightGrey);
+    color: var(--white);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: .5em 6em;
+    letter-spacing: .2em;
+    font-size: 1.4em;
+    border-radius: 25px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+
+
+.hidden{
+    width: 27em;
+    /* height: 255px; */
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin: 16em 45em; */
+    margin: auto;
+    border-radius: 1em;
+    padding: 2em;
+    background-color: var(--darkBlue);
+    
+    display: none;
+}
+
+.selected-message{
+    background: var(--mediumGrey);
+    color: var(--orange);
+    text-align: center;
+    padding: .5em 1em;
+    border-radius: 20px;
+    margin: 2em;
+}
+
+.hidden .thankyou{
+    font-size: 2.5em;
+    color: var(--white);
+    margin-bottom: .5em;
+}
+
+.message{
+    color: var(--lightGrey);
+    text-align: center;
+    line-height: 1.5em;
+}
