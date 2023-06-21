@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+   font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+li{
+   padding: 32px;
+    float: left;
+     
+}
+.nav_sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    min-height: 14vh;
+    background-color: rgb(101,1,182);
+    display: flex;
+    /* align-items:end; */
+    justify-content:space-between;
+    color: white;
+
+}
+.pr_details{
+    margin-top: 40px;
+    margin-left: 3rem;
+    gap: 32px;
+     margin-bottom: 0.8rem;
+}
+.pr_details h1{
+   font-size: 2rem;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+img{
+    width: 400px;
+    height: 300px;
+    margin: 6rem;
+    border-radius: 2rem;
+}
+.about_me{
+        margin-left: 2rem;
+}
+.about_me h1{
+    font-size: 3rem;
+    color:rgb(101,1,182) ;
+
+}
+.about_me p{
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    color: rgb(145, 145, 145);
+
+}
+.skills{
+   
+    margin-left: 3rem;
+ 
+}
+.skills h1{
+     font-size: 2rem;
+    color:rgb(101,1,182) ;
+   
+}
+.card img{
+    width: 60px;
+    height: 60px;
+    margin: 0.5rem;
+     margin-bottom: 1rem;
+}
+.card{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 4px 4px 4px 4px;
+    border-radius: 0.3rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 11rem;
+}
+.card p{
+margin-bottom: 1.5rem;
+}
+.card p1{
+margin-bottom: 1.5rem;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.projects{
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+.projects h1{
+     font-size: 2rem;
+    color:rgb(101,1,182) ;
+   
+}
+
+.projects h4{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.projects p{
+    margin-top: 1rem;
+    margin-bottom: 1.1rem;
+    margin-left: 4rem;
+    font-size: 1.2rem;
+}
+hr{
+    width: 80%;
+    margin-left: 3.9rem;
+}
+
+.recommendation h1{
+     font-size: 2rem;
+    color:rgb(101,1,182) ;
+   
+}
+.recommendation{
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+
+.recco{
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.reco{
+    height:30vh;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 1rem;
+  
+}
+.feedback h1{
+    color: black;
+}
+
+.feedbackk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.name{
+    width: 600px;
+    height: 28px;
+}
+.message{
+    width: 600px;
+    height: 200px;
+}
+.submit{
+    
+	background: #ffffff;
+	color: rgb(101,1,182);
+	border-color: rgb(101,1,182);
+	height: 50px;
+	width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+	text-shadow: none;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+
+}
+form{
+    margin-top: 1.5rem;
+}
+.icon{
+    margin-top: 4px;
+    display: flex;
+    gap: 0.8rem;
+   
+}
